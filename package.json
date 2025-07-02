@@ -1,0 +1,38 @@
+{
+  "name": "idmapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite dev",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YarramallaAjay/idmapper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YarramallaAjay/idmapper/issues"
+  },
+  "packageManager": "pnpm@9.15.4",
+  "homepage": "https://github.com/YarramallaAjay/idmapper#readme",
+  "devDependencies": {
+    "turbo": "^2.5.4"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
